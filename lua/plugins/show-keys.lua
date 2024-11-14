@@ -1,0 +1,5 @@
+return {
+  {
+    "nvchad/showkeys",
+  },
+}

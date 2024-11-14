@@ -8,6 +8,7 @@ return {
       styles = {
         sidebars = "transparent",
         floats = "transparent",
+        blur = 1,
       },
     }
   end,
@@ -17,6 +18,7 @@ return {
 --     "LazyVim/LazyVim",
 --     opts = {
 --       colorscheme = "catppuccin",
+--       transparent_background = true,
 --     },
 --   },
 -- }

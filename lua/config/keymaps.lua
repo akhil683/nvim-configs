@@ -10,15 +10,13 @@ keymap.set("i", "kj", "<Esc>", opts)
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
--- Go to file tree
-keymap.set("n", "<leader>e", vim.cmd.Ex)
-
 -- visual Mode: moving lines
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Greatest Keymap ever : I agree with Prime
-vim.keymap.set("x", "<leader>p", [["_dP]])
+keymap.set("x", "<leader>p", [["_dP]])
+keymap.set("n", "<Leader>k", ":ShowkeysToggle<Return>", opts)
 
 -- search word with cursor in middle
 keymap.set("n", "n", "nzzzv")
